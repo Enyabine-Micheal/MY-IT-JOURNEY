@@ -1,0 +1,6 @@
+{
+  "editor.fontFamily": "Comic Sans MS",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.port": 5501
+}
