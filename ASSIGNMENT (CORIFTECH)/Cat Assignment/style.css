@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient( #b920204d, #20208875 ),url(picsassets/gatitos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px ;
+    margin: 10px 10px 10px 10px ;
+}
