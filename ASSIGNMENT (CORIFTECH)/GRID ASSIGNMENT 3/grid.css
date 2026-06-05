@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #a5a1a1; /* Match the gray background of the preview */
+    padding: 20px;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-width: 600px;
+    line-height: 1.1;
+}
+
+header p {
+    color: #666;
+    max-width: 300px;
+    font-size: 0.95rem;
+}
+
+/* --- THE GRID MASTER --- */
+section {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* 3 custom row heights to give that staggered layout look */
+    grid-template-rows: 270px 270px 270px; 
+    gap: 25px;
+}
+
+.box1{
+    background: linear-gradient(#f0f0d8, #f0eaea
+    ) ;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box1>.image>img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 30px rgb(255, 255, 255);
+}
+.box1> h2{
+    font-size: 40px;
+    width: 100px;
+    margin-left: 20px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.box1>  p{
+    width: 280px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.box2{
+     background: linear-gradient(#f0f0d8, #f0eaea
+    ) ;
+    grid-column: 2/4;
+    display: flex;
+    padding-left: 10px ;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.box2>.image>img{
+    width: 400px; 
+    height: 265px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.box2>.text{
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-right: 109px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.box2>.text> h2{
+    font-size: 40px;
+    width: 200px;
+    line-height: 1.1;
+}
+.box2>.text> p{
+    margin-top: 20px;
+    width: 250px;
+    line-height: 22px;
+}
+
+
+.box3{
+     background: linear-gradient(#f0f0d8, #f0eaea
+    ) ;
+    display: flex;
+    justify-items: space-between;
+    align-items: flex-start;
+    padding-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box3>.image>img{
+    width: 190px; 
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.box3>.text-box3{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.box3>.text-box3> h2{
+
+    width: 200px;
+    line-height: 1.1;
+}
+.box3>.text-box3>p{
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+
+
+.box4{
+     background: linear-gradient(#f0f0d8, #f0eaea
+    ) ;
+    display: flex;
+    justify-items: space-between;
+    align-items: flex-start;
+    padding-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box4>.image>img{
+    width: 190px; 
+    height: 190px;
+    border-radius: 10px;
+    margin-top: 77px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    align-self: flex-end;
+}
+
+.box4>.text-box4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.box4>.text-box4> h2{
+    width: 200px;
+    line-height: 1.1;
+}
+.box4>.text-box4> p{
+    margin-top: 15px;
+    width: 160px;
+    line-height: 22px;
+}
+
+
+.box5{
+     background: linear-gradient(to left, #f0f0d8, #b9b9b9d5
+    ) ;
+    grid-column: 1/3;
+    display: flex;
+    padding-left: 20px ;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.box5>.image>img{
+    width: 400px; 
+    height: 269px;
+    border-radius: 10px;
+   
+}
+
+.box5>.text-box5{
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-right: 76px;
+}
+.box5>.text-box5> h2{
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+.box5>.text-box5> p{
+    width: 290px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.box6{
+     background: linear-gradient(to left, #f0f0d8, #ebeaea
+    ) ;
+    display: flex;
+     justify-items: space-between;
+    align-items: flex-start;
+    padding-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box6>.image>img{
+    width: 190px; 
+    height: 190px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+.box6>.text-box6{
+    margin-top: 26px;
+    margin-left: 10px;
+}
+.box6>.text-box6> h2{
+    width: 200px;
+    line-height: 1.1;
+}
+.box6>.text-box6> p{
+    margin-top: 15px;
+    width: 190px;
+    line-height: 22px;
+}

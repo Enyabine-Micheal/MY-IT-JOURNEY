@@ -1,0 +1,25 @@
+PS C:\Users\HP> opencode
+
+Error: 4 of 5 requests failed: Unexpected server error. Check server logs for details.
+
+Affected startup requests: config.providers, provider.list, app.agents, config.get
+
+    at rO (B:/~BUN/root/chunk-nrn6hwff.js:468:117)
+
+    at <anonymous> (B:/~BUN/root/chunk-nrn6hwff.js:468:5550)
+
+    at processTicksAndRejections (native:7:39)
+
+PS C:\Users\HP>"
+
+
+
+seems like it didnt work 
+
+
+
+now imagine u are a computer engineer or computer analyst 
+
+
+
+find the brainstorm the issue and find out what could be wrong with it
